@@ -1,23 +1,9 @@
 # LT-EDI-2026-Gender-Inclusive-Language
 LT-EDI@ACL 2026: Gender Inclusive Language Generation. Advancing research in bias-free text by transforming gendered input into inclusive alternatives across 5 languages (EN, DE, ES, TA, KN). Includes Subtask A (Inclusive Rewriting) and Subtask B (Counterfactuals) to mitigate LLM stereotypes while preserving meaning and fluency.
+
+
 # 🌈 Gender Inclusive Language Generation (LT-EDI @ ACL 2026)
 
-## 🏗️ Project Hierarchy
-
-```text
-├── data/                   # Multilingual datasets (EN, DE, ES, TA, KN)
-│   ├── raw/                # Original competition data
-│   └── processed/          # Cleaned data for model training
-├── notebooks/              # Jupyter Notebooks for experimentation
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_evaluation.ipynb
-├── src/                    # Core Python source code
-│   ├── preprocessing.py    # Text normalization and bias detection
-│   ├── transformer_model.py # mT5 / Flan-T5 implementation
-│   └── utils.py            # Helper functions
-├── models/                 # Saved model weights and configurations
-└── results/                # Performance metrics and GIFI scores
 
 <p align="center">
   <img src="https://img.shields.io/badge/Task-LT--EDI%20%40%20ACL%202026-blueviolet?style=for-the-badge&logo=acl" />
@@ -73,3 +59,21 @@ We utilize a **Hybrid LLM-as-a-Judge** framework to evaluate our systems across 
 <p align="center">
   <i>Developed for the LT-EDI@ACL 2026 Shared Task</i>
 </p>
+
+
+## 🏗️ Project Hierarchy
+
+```text
+├── data/                   # Multilingual datasets (EN, DE, ES, TA, KN)
+│   ├── raw/                # Original competition data
+│   └── processed/          # Cleaned data for model training
+├── notebooks/              # Jupyter Notebooks for experimentation
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_model_training.ipynb
+│   └── 03_evaluation.ipynb
+├── src/                    # Core Python source code
+│   ├── preprocessing.py    # Text normalization and bias detection
+│   ├── transformer_model.py # mT5 / Flan-T5 implementation
+│   └── utils.py            # Helper functions
+├── models/                 # Saved model weights and configurations
+└── results/                # Performance metrics and GIFI scores
